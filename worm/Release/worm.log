@@ -1,9 +1,9 @@
-﻿生成启动时间为 2020/8/27 10:41:08。
+﻿生成启动时间为 2020/8/27 21:36:09。
      1>项目“E:\Cpp\worm\worm\worm.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“Release\worm.lastbuildstate”。
        InitializeBuildStatus:
-         正在创建“Release\worm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Release\worm.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
          E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
@@ -23,4 +23,4 @@
 
 生成成功。
 
-已用时间 00:00:03.21
+已用时间 00:00:03.39

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worm", "worm\worm.vcxproj", "{C8CD8C1A-A7F7-453A-B0B0-BC95A4A32242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8CD8C1A-A7F7-453A-B0B0-BC95A4A32242}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8CD8C1A-A7F7-453A-B0B0-BC95A4A32242}.Debug|Win32.Build.0 = Debug|Win32
+		{C8CD8C1A-A7F7-453A-B0B0-BC95A4A32242}.Release|Win32.ActiveCfg = Release|Win32
+		{C8CD8C1A-A7F7-453A-B0B0-BC95A4A32242}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

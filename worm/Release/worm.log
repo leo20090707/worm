@@ -1,26 +1,33 @@
-﻿生成启动时间为 2020/8/27 21:36:09。
-     1>项目“E:\Cpp\worm\worm\worm.vcxproj”在节点 2 上(rebuild 个目标)。
+﻿生成启动时间为 2021/2/17 13:52:34。
+     1>项目“E:\Cpp\worm2.5\worm\worm.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“Release\worm.lastbuildstate”。
        InitializeBuildStatus:
-         正在对“Release\worm.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Release\worm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>e:\cpp\worm\worm\playboard.h(51): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+     1>e:\cpp\worm2.5\worm\playboard.h(84): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
                  E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>e:\cpp\worm2.5\worm\playboard.h(120): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>e:\cpp\worm2.5\worm\playboard.h(150): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\worm.res" worm.rc 
        Link:
-         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Cpp\worm\Release\worm.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\worm.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"E:\Cpp\worm\Release\worm.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Cpp\worm\Release\worm.lib" /MACHINE:X86 Release\main.obj
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Cpp\worm2.5\Release\worm.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\worm.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"E:\Cpp\worm2.5\Release\worm.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Cpp\worm2.5\Release\worm.lib" /MACHINE:X86 Release\worm.res
+         Release\main.obj
          正在生成代码
          已完成代码的生成
-         worm.vcxproj -> E:\Cpp\worm\Release\worm.exe
+         worm.vcxproj -> E:\Cpp\worm2.5\Release\worm.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Cpp\worm\Release\worm.exe;#1" /manifest Release\worm.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Cpp\worm2.5\Release\worm.exe;#1" /manifest Release\worm.exe.intermediate.manifest
        FinalizeBuildStatus:
          正在删除文件“Release\worm.unsuccessfulbuild”。
          正在对“Release\worm.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Cpp\worm\worm\worm.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“E:\Cpp\worm2.5\worm\worm.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:03.39
+已用时间 00:00:12.46

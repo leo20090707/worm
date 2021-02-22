@@ -1,5 +1,5 @@
 # worm
-A c++-coded worm which infect files and destroy Windows in SOME DAYS.
+A c++-coded worm codenamed IMPOSER which infect files and destroy Windows in SOME DAYS.
 Please do not do illegal things with it.I'm not responsible for any damage.XD.
 PLAYBOARDS:
 when month=a day=b
